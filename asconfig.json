@@ -7,16 +7,16 @@
       "debug": true
     },
     "release": {
-      "outFile": "build/release.wasm",
-      "textFile": "build/release.wat",
+      "outFile": "build/optimized.wasm",
+      "textFile": "build/optimized.wat",
       "sourceMap": true,
       "optimizeLevel": 3,
-      "shrinkLevel": 0,
+      "shrinkLevel": 1,
       "converge": false,
       "noAssert": false
     }
   },
   "options": {
-    "bindings": "esm"
+    
   }
 }
