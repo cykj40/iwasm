@@ -2,7 +2,6 @@
   "name": "iwasm",
   "version": "1.0.0",
   "description": "front end masters tutorial",
-  
   "scripts": {
     "test": "node tests",
     "asbuild:debug": "asc assembly/index.ts --target debug --exportRuntime",
